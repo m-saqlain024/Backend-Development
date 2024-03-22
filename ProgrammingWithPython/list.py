@@ -19,7 +19,14 @@ list2.extend(['f','g','h'])
 # remove element from the list 
 
 list5 = [1,2,3,4,5,6,7]
+for x in list5:
+    print('value :' , x)
 print(*list5)
 list5.pop(2)
 del list5[2]
 print(*list5)
+
+
+
+
+
