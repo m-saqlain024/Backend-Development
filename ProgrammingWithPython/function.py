@@ -11,6 +11,7 @@ print("total Calculate tax :",calculate_tax(13300, 20))
 def result(number):
     if number > 50:
         print("pass")
-    else :
+    elif number < 50:
         print("faild")
 
+print(result(32))
