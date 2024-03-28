@@ -20,4 +20,14 @@ def isPalinders(str):
     return True
 
 
-print(isPalinders('racecar'))
+# print(isPalinders('racecar'))
+
+
+# for x in range(10):
+#     for y in range(10):
+        # print(x ,y)
+
+
+developer = ['saqlain', 'imaran', 'rashid', 'muzimil']
+
+print(sorted(developer))
