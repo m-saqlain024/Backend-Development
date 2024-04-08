@@ -8,9 +8,12 @@ def myfun(cofee):
 
 menulsit = map(myfun , menu)
 
+# print(menulsit)
 
-print(menulsit)
+# for x in menulsit:
+    # print(x)
 
 
-for x in menulsit:
+filter_menu = filter(myfun, menu)
+for x in filter_menu:
     print(x)
