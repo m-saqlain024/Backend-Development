@@ -10,3 +10,8 @@ def all(iterable):
 
 num2 = all("")
 print(num2)
+
+
+num3 = bin(12)
+
+print(num3)
