@@ -20,3 +20,4 @@ kiran = Chefs("kiran" , "k")
 
 
 print(kiran.leave_request(2))
+print(kiran.name)
