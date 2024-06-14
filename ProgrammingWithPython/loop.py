@@ -36,4 +36,12 @@ print("pass example ")
 for dessert in favorites:
     if dessert == 'Churros':
         pass
+<<<<<<< HEAD
     print('Other desserts I like are', dessert)
+=======
+    print('Other desserts I like are', dessert)
+
+for dessert in favorites:
+    if dessert == 'Churros':
+        print('Yes! One of my favorite desserts is', dessert) 
+>>>>>>> 62b649bab665fd37e7869c012c13bda74578797f
