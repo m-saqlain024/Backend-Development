@@ -72,7 +72,7 @@ class Swiss(Bank):
 def main():
     assert issubclass(Bank, ABC), "Bank must derive from class ABC"
     s = Swiss()
-    print(s.basicinfo())
+    print(s.basicinfo())    
     s.withdraw(30)
     s.withdraw(1000)
 
